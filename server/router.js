@@ -23,8 +23,8 @@ const router = (app) => {
   // For example www.webpage.com
   app.get('/', controllers.index);
 
-  // catch for any other GET request. The * means anything
-  app.get('/*', controllers.notFound);
+  // catch for any other GET request. The *wild means anything
+  app.get('/*wild', controllers.notFound);
 
   // When someone POSTS to /setName, call controllers.setName
   // For example, a form submission to www.webpage.com/setName
