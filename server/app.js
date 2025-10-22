@@ -7,6 +7,8 @@ const express = require('express');
 const compression = require('compression');
 // favicon library to handle favicon requests
 const favicon = require('serve-favicon');
+// body-parser is a middleware to help parse form data requests
+const bodyParser = require('body-parser');
 // Mongoose is one of the most popular MongoDB libraries for node
 const mongoose = require('mongoose');
 // express handlebars is an express plugin for handlebars templating
